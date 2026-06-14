@@ -1,0 +1,16 @@
+{
+  "name": "easylink-qa-automation",
+  "version": "1.0.0",
+  "description": "QA automation framework for API and UI using Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.3",
+    "typescript": "^6.0.3"
+  }
+}
