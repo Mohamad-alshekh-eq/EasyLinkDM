@@ -29,6 +29,9 @@ export default defineConfig({
         screenshot: "only-on-failure",
         trace: "retain-on-failure",
         video: "retain-on-failure",
+        launchOptions: {
+          slowMo: process.env.SLOW ? 800 : 0,
+        },
       },
     },
   ],
